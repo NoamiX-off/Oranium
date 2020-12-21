@@ -1,7 +1,7 @@
 body {
 font-family: sans-serif;
 
-background:  no-repeat url("https://geekzilla.tech/home/wp-content/uploads/2020/06/image-1.jpg"), /*#bf0000*/ #ff00ff;
+background:  no-repeat url("https://geekzilla.tech/home/wp-content/uploads/2020/06/image-1.jpg"), #bf0000;
 /*background:  no-repeat url("https://thumbs.gfycat.com/PrestigiousMessyEmeraldtreeskink-max-14mb.gif"), #ff0000;*/
 background-size: cover;
 
@@ -118,7 +118,7 @@ body {
     height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-      height: 50px;
+      height: 150px;
     /*height: calc(100vh - 50px);
     overflow-y: auto;*/
   }
