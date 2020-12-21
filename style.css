@@ -139,3 +139,19 @@ body {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+button:hover {
+  background-color: transparent;
+  border: none;
+  color: #0000FF;
+  padding: 15px 32px;
+  border-radius: 30px;
+  border: 1px solid #0000FF;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;    
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
