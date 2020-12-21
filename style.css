@@ -123,3 +123,23 @@ body {
     overflow-y: auto;*/
   }
 }
+/*boutton navigation*/
+
+/************************************************************
+
+Fichier : style.scss
+Theme name : neon button
+Description: Original tuto by Online Tutorials -> https://youtu.be/ex7jGbyFgpA
+Author: Shay Reichert
+
+
+
+/************************************************
+0.	Import
+************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+$button-color: #00fff6;
+$second-color: #050f1a;
+
+
