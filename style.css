@@ -126,7 +126,7 @@ body {
 /*boutton navigue */
 $button-color: #00fff6;
 $second-color: #050f1a;
-a {
+.boutton a {
     position: relative;
     display: inline-block;
     padding: 15px 30px;
