@@ -131,3 +131,86 @@ body {
   width: 300px;
   height: 500px;
 }
+
+
+/* boutton */
+
+/************************************************************
+
+Fichier : style.scss
+Theme name : neon button
+Description: Original tuto by Online Tutorials -> https://youtu.be/ex7jGbyFgpA
+Author: Shay Reichert
+
+
+
+/************************************************
+0.	Import
+************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+$button-color: #ff0000;
+$second-color: #050f1a;
+
+
+
+/************************************************
+1.	BODY
+************************************************/
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #050f1a;
+    font-family: "Questrial", Impact, sans-serif;
+}
+
+a {
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 15px 3align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #050f1a;
+    font-family: "Questrial", Impact, sans-serif;
+}
+    
+a {
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 15px 30px;
+    color: $button-color;
+    text-transform: uppercase;0px;
+    color: $button-color;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 30px;
+    overflow: hidden;
+    transition: 1s;
+    &:visited {
+        color: $button-color;
+    }
+    &:hover {
+        color: #ff0000;
+        background: transparent;
+        border-radius: 3px;
+        box-shadow: 0 0 10px $button-color, 0 0 10px $button-color, 0 0 10px $button-color; 
+        transition-delay: 1.2s;
+        border-radius: 30px;
+    }
+
+
+    span {
+        position: absolute;
+        display: block;
+    }
+}}
+
+
