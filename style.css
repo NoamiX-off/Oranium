@@ -125,12 +125,7 @@ body {
 }
 /*boutton navigue */
 
-.container { 
-position: absolute;
-top: 50%;
-Left:10%;
-transform: translate(-50%, -50%);
-}
+
 
 .button {
 position: relative;
