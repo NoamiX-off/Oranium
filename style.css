@@ -126,10 +126,12 @@ body {
 /*boutton navigue */
 
 .button {
-  background-color: #4CAF50;
+  background-color: transparent;
   border: none;
-  color: white;
+  color: #FF0000;
   padding: 15px 32px;
+  border-radius: 30px;
+  border: 1px solid #FF0000;
   text-align: center;
   text-decoration: none;
   display: inline-block;    
