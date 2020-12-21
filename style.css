@@ -245,3 +245,38 @@ a:hover span:nth-child(3) {
     transition-delay: 250ms;
 }
 
+/************************************************
+5.	NEON DE DROITE
+************************************************/
+
+a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, $button-color);
+}
+a:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 100ms;
+}
+
+
+
+/************************************************
+5.	NEON DE GAUCHE
+************************************************/
+
+a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, $button-color);
+}
+a:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 450ms;
+}
