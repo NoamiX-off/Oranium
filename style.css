@@ -127,7 +127,7 @@ body {
 /* bouton haut */
 
 .boutique {
-  background: linear-gradient(70deg, blue, pink);
+  background: linear-gradient(70deg, #ff0000, blue, pink);
   width: 120px;
   height: 120px;
 }
