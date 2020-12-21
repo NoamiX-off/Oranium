@@ -124,32 +124,6 @@ body {
   }
 }
 /*boutton navigue */
-$button-color: #00fff6;
-$second-color: #050f1a;
-.bouton a {
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    color: $button-color;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-decoration: none;
-    font-size: 30px;
-    overflow: hidden;
-    transition: 0.2s;
-    &:visited {
-        color: $button-color;
-    }
-    &:hover {
-        color: #050f1a;
-        background: $button-color;
-        border-radius: 3px;
-        box-shadow: 0 0 10px $button-color, 0 0 40px $button-color, 0 0 80px $button-color;
-        transition-delay: 600ms;
-   }
 
-
-  
-    
     
 
