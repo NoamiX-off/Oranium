@@ -125,5 +125,33 @@ body {
 }
 /*boutton navigue */
 
+.container { 
+position: absolute;
+top: 50%;
+Left:10%;
+transform: translate(-50%, -50%);
+}
 
+.button {
+position: relative;
+text-align:center;
+width: 25%;
+padding: 4%;
+font-size:3.5%;
+color: #FF0000;
+font-family: poppins;
+font-weight:40;
+border: 5px solid #FF0000;
+text-transform: uppercase;
+letter-spacing: 15px;
+cursor: pointer;
+border-radius: 100px;
+transition: 1.5s;
+}
+
+.button:hover {
+box-shadow: 0 5px 50px 0 #ff0000 inset, 0 5px 50px 0 #ff0000;
+            0 5px 50px 0 #ff0000 inset, 0 5px 50px 0 #ff0000;
+text-shadow: 0 0 5px #ff0000, 0 0 5px #ff0000;
+}
 
