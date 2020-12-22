@@ -1,14 +1,15 @@
 body {
 font-family: sans-serif;
-
-background: url("https://geekzilla.tech/home/wp-content/uploads/2020/06/image-1.jpg"), #bf0000;
+background: url("https://www.slashgear.com/wp-content/uploads/2020/06/Minecraft-Nether-Update-1280x720.jpg"), #000000;
+/*background: url("https://geekzilla.tech/home/wp-content/uploads/2020/06/image-1.jpg"), #bf0000;*/
 background-repeat: no-repeat;
 /*background:  no-repeat url("https://thumbs.gfycat.com/PrestigiousMessyEmeraldtreeskink-max-14mb.gif"), #ff0000;
-background-size: cover;*/
-margin: 100%;
-height: 250px;
+*/
+background-size: cover;
+/*margin: 100%;
+height: 250px;*/
 
-/*background-attachement: fixed;*/
+background-attachement: fixed;
 
 }
 
